@@ -4,9 +4,12 @@ import "./Ingredient.css";
 function Ingredient(props) {
   // console.log("ingredient render");
   return (
-    <li className="ingredient">
-      {props.ingredient} - {props.measure}
-    </li>
+    <>
+      <h1>vikash</h1>
+      <li className="ingredient">
+        {props.ingredient} - {props.measure}
+      </li>
+    </>
   );
 }
 
